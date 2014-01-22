@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
 
 	private static final String TAG="TESTCASE";
 	public void doButtonClick(View view){
-		Log.v(TAG,"button 1 click");
+		Log.v(TAG,"button 1 click!");
 		
 		TextView textView1=(TextView) this.findViewById(R.id.textView1);
 		EditText editText1=(EditText) this.findViewById(R.id.editText1);
